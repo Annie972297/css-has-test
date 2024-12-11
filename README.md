@@ -29,4 +29,4 @@ After installing "css-has-pseudo", I do the next two steps following the README 
 
 Then I restart the project. It works in Firefox 110.0. I can see there is a "csstools-has-" attribute on the corresponding element.  
 
-But if I build the project and put it in a real device, it doesn't work. (My project is using a router as a server.)
+But if I build the project and open the `index.html` in the `dist` folder with vscode plugin "Live Server", it doesn't work.
