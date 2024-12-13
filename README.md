@@ -30,3 +30,5 @@ After installing "css-has-pseudo", I do the next two steps following the README 
 Then I restart the project. It works in Firefox 110.0. I can see there is a "csstools-has-" attribute on the corresponding element.  
 
 But if I build the project and open the `index.html` in the `dist` folder with vscode plugin "Live Server", it doesn't work.
+
+The key to reproduce the problem is to use async stylesheet. Using "dynamic import of Vue Router" or "Async Components of Vue" is easy to trigger the problem.
