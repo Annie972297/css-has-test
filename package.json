@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
-    "css-has-pseudo": "6.0.5",
+    "css-has-pseudo": "^7.0.2",
     "postcss": "8.4.38",
     "vite": "^6.0.1",
     "vue-router": "^4.5.0"
