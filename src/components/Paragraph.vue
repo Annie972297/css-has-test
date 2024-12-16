@@ -12,6 +12,6 @@
 
 <style scoped>
 .main-para:has(.has-setting) {
-  border: solid 3px green;
+  border: solid 3px orangered;
 }
 </style>
